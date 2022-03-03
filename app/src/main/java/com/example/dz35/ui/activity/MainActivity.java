@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setTheme(R.style.Theme_Android3Lesson2);
+        setTheme(R.style.Theme_Dz32);
         setContentView(binding.getRoot());
         initNavigation();
     }
